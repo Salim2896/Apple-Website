@@ -1,0 +1,168 @@
+<!DOCTYPEhtml>
+	<html>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<style>
+		body {
+			background: linear-gradient(35deg, #ccffff, #ffcccc);
+			;
+		}
+
+		.welcome-label {
+			color: black;
+			font-style: italic;
+			text-align: center;
+			text-shadow: 2px 2px #808080;
+			font-family: Lobster;
+			font-size: 40px;
+			transition: all 0.5s;
+		}
+		.welcome-label:hover {
+			transform: scale(1.2);
+			
+			
+		}
+
+		.pictureiphone {
+			border-color: Black;
+			width: 240px;
+			height: 240px;
+			border-radius: 80%;
+			border-width: 15px;
+			border-style: ridge;
+			background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+			margin: 60px;
+			padding: 50px;
+			transition: all .3s;
+
+		}
+
+		.pictureiphone:hover {
+			transform: scale(1.5);
+			border: solid white;
+			border-width: 20px;
+			border-radius: 80%;
+			box-shadow: 6px 6px 12px #111111,
+				-6px -6px 12px #111010
+		}
+
+		.row {
+			display: flex;
+		}
+
+
+		.phone-label {
+			font-family: Lobster;
+			text-align: center;
+			font-size: 20px;
+			padding: 30px;
+			transition: all 0.3s;
+		}
+		
+		.phone-label:hover{
+			transform: scale(1.5);
+		}
+		.footer {
+			margin: 20px;
+		}
+
+		.checkout-button-alignment {
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.checkout-button {
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			opacity: 0.7;
+			color: #090909;
+			padding: 0.7em 1.7em;
+			font-size: 18px;
+			border-radius: 0.5em;
+			background: #e8e8e8;
+			border: 1px solid #e8e8e8;
+			transition: all .3s;
+			box-shadow: 6px 6px 12px #f3eaea,
+				-6px -6px 12px #111010;
+		}
+
+		.checkout-button:hover {
+			color: rgb(143, 143, 17);
+			border: 2px solid white;
+			transform: scale(1.2);
+		}
+	</style>
+
+	<body>
+		<main>
+			<a href="#apple">jump to bottom</a>
+			<h1 class="welcome-label"> Welcome to Apple Store </h1>
+			<hr>
+			<h2 style="color: gray;"> Buy <a href="https://www.apple.com/ca/" target="_blank"> Apple </a> at a sale
+				price </h2>
+			<div class="row">
+				<div>
+					<a href="https://www.apple.com/ca/" target="_blank"> <img
+							src="C:\Users\musli\Downloads\iphone-13-pro-family-hero.png" class="pictureiphone">
+						<alt="iPhone 13 Pro">
+					</a>
+					<p class="phone-label">iPhone13pro </p>
+					<form action:"https://www.apple.com/ca />
+					<label><input type="radio" name="black-blue-white" checked> Black </label>
+					<label><input type="radio" name="black-blue-white">White </label>
+					<label><input type="radio" name="black-blue-white">Sierra Blue </label>
+					<ul>
+						<li><input type="radio" name="128-256-512" checked> 128GB </li>
+						<li><input type="radio" name="128-256-512"> 256GB </li>
+						<li><input type="radio" name="128-256-512"> 512GB </li>
+					</ul>
+					</form>
+				</div>
+				<div>
+					<a href="https://www.apple.com/ca/" target="_blank">
+						<img src="C:\Users\musli\Downloads\iphone-12-pro-max-gold-hero.png" class="pictureiphone">
+						<alt="iPhone 12 Pro">
+					</a>
+					<p class="phone-label">iPhone12pro </p>
+					<form action:"https://www.apple.com/ca />
+					<label><input type="radio" name="black-blue-gold" checked>Black </label>
+					<label><input type="radio" name="black-blue-gold">White </label>
+					<label><input type="radio" name="black-blue-gold">Gold </label>
+					<ul>
+						<li><input type="radio" name="128-256-512" checked> 128GB </li>
+						<li><input type="radio" name="128-256-512"> 256GB </li>
+						<li><input type="radio" name="128-256-512"> 512GB </li>
+					</ul>
+					</form>
+				</div>
+				<div>
+					<a href="https://www.apple.com/ca/" target="_blank">
+						<img src="C:\Users\musli\Downloads\swappie-iphone-11-pro-max-midnight-green-back.png"
+							class="pictureiphone">
+						<alt="iPhone 11 Pro">
+					</a>
+					<p class="phone-label">iPhone11pro </p>
+					<form action:"https://www.apple.com/ca />
+					<label><input type="radio" name="black-blue-green" checked>Black </label>
+					<label><input type="radio" name="black-blue-green">White </label>
+					<label><input type="radio" name="black-blue-green">Midnight Green </label>
+					<ul>
+						<li><input type="radio" name="128-256-512" checked> 128GB </li>
+						<li><input type="radio" name="128-256-512"> 256GB </li>
+						<li><input type="radio" name="128-256-512"> 512GB </li>
+					</ul>
+
+					</form>
+				</div>
+
+			</div>
+
+			<div class="checkout-button-alignment">
+				<button type="button" class="checkout-button"><em> Proceed to checkout</em> </button>
+			</div>
+
+
+
+		</main>
+
+		<footer class="footer">
+			<id="apple">Copyrights Reserved.
+		</footer>
